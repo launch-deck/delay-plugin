@@ -1,0 +1,15 @@
+{
+    "name": "@launch-deck/delay-plugin",
+    "version": "1.0.0",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "postinstall": "tsc"
+    },
+    "dependencies": {
+        "@launch-deck/common": "latest"
+    },
+    "devDependencies": {
+        "typescript": "^4.8.4"
+    }
+}
