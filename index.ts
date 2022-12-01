@@ -28,6 +28,7 @@ const DelayPlugin: Plugin = {
 
         return Promise.resolve(commands);
     }
+
 }
 
 export default DelayPlugin;
