@@ -1,6 +1,6 @@
 import type { Command, Plugin } from "@launch-deck/common";
 
-const DelayPlugin: Plugin = {
+module.exports = {
 
     async handleCommand(command: Command): Promise<void> {
 
@@ -29,6 +29,4 @@ const DelayPlugin: Plugin = {
         return Promise.resolve(commands);
     }
 
-}
-
-export default DelayPlugin;
+} as Plugin;
